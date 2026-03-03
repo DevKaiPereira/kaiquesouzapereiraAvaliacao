@@ -1,77 +1,90 @@
-# VEXYN Document Management System
+# VEXYN 🚀
 
-## Descrição do Projeto
-O VEXYN é um sistema de gerenciamento de documentos que permite a organização, armazenamento e compartilhamento de arquivos de forma eficiente e segura. Este projeto tem como objetivo facilitar a gestão de documentos para empresas e usuários individuais, garantindo acessibilidade e controle sobre dados importantes.
+Welcome to VEXYN, an innovative solution designed to enhance your experience and streamline your tasks. 
 
-## Funcionalidades
-- **Armazenamento Seguro**: Documentos são armazenados com segurança em servidores confiáveis.
-- **Gerenciamento de Acesso**: Permissões podem ser atribuídas a usuários específicos.
-- **Interface Amigável**: Design intuitivo para fácil navegação e operação.
-- **Integração com APIs**: Possibilidade de interação com outras aplicações e serviços.
+## Table of Contents 📚
+- [Main Features](#main-features)
+- [Getting Started](#getting-started)
+- [API Endpoints](#api-endpoints)
+- [Project Structure](#project-structure)
+- [Testing](#testing)
+- [Technologies](#technologies)
+- [Configuration](#configuration)
+- [Security](#security)
+- [Common Errors](#common-errors)
+- [Roadmap](#roadmap)
+- [Support](#support)
+- [License](#license)
 
-## Rotas da API
-- `GET /api/documents`: Lista todos os documentos.
-- `POST /api/documents`: Adiciona um novo documento.
-- `GET /api/documents/:id`: Obtém detalhes de um documento específico.
-- `PUT /api/documents/:id`: Atualiza um documento existente.
-- `DELETE /api/documents/:id`: Remove um documento.
+## Main Features ✨
+- User-friendly interface
+- Real-time data processing
+- Secure API access
+- Comprehensive documentation
 
-## Estrutura de Pastas
+## Getting Started 🚦
+To get started with VEXYN, follow these steps:
+1. Clone the repository: 
+   ```bash
+   git clone https://github.com/DevKaiPereira/kaiquesouzapereiraAvaliacao.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the application:
+   ```bash
+   npm start
+   ```
+
+## API Endpoints 🌐
+- `GET /api/v1/resource` - Retrieve resources
+- `POST /api/v1/resource` - Create a new resource
+- `PUT /api/v1/resource/:id` - Update a resource
+- `DELETE /api/v1/resource/:id` - Delete a resource
+
+## Project Structure 🗂️
 ```
-├── src/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── config/
-│   └── tests/
-└── README.md
+/src
+  /components
+  /api
+  /styles
+/public
+  index.html
+  style.css
 ```
 
-## Testes
-Os testes podem ser executados utilizando o framework de testes Jest. Para rodá-los, utilize o seguinte comando:
-```
+## Testing 🧪
+To run tests, use the following command:
+```bash
 npm test
 ```
 
-## Stack Tecnológico
+## Technologies 🛠️
 - Node.js
 - Express
 - MongoDB
-- Jest
-- Joi (para validação de dados)
+- React
 
-## Configuração
-1. Clone o repositório:
-   ```
-git clone https://github.com/DevKaiPereira/kaiquesouzapereiraAvaliacao.git
-```
-2. Navegue até o diretório do projeto:
-   ```
-cd kaiquesouzapereiraAvaliacao
-```
-3. Instale as dependências:
-   ```
-npm install
-```
+## Configuration ⚙️
+Update the `.env` file with the following variables:
+- `DATABASE_URL` - MongoDB connection string
+- `PORT` - Port to run the application
 
-## Instruções de Setup
-Para iniciar o servidor local, utilize:
-```
-npm start
-```
-Acesse o sistema em `http://localhost:3000`.
+## Security 🔒
+Ensure to keep your environment variables secure and regularly update dependencies.
 
-## Autenticação
-O VEXYN suporta autenticação baseada em token. Usuários devem se autenticar para acessar rotas protegidas da API.
+## Common Errors ❌
+- **Error 404**: Resource not found. Please check the endpoint.
+- **Error 500**: Server error. Check logs for more information.
 
-## Logging
-Logs de atividades são registrados em um arquivo `logs/app.log`. Mudanças e acessos são monitorados para garantir a segurança e auditoria dos documentos.
+## Roadmap 📅
+- Q2 2026: Implement user authentication
+- Q3 2026: Add analytics dashboard
+- Q4 2026: Expand API functionalities
 
-## Tratamento de Erros
-Todos os erros são tratados através de middleware dedicado. Respostas de erro padrão são enviadas ao cliente com informações apropriadas.
+## Support 📞
+For support, open an issue on GitHub or contact us at support@vexyn.com.
 
-## Roteiro Futuro
-- Implementação de busca avançada de documentos.
-- Melhorias na interface do usuário.
-- Adição de suporte a mais tipos de documentos.
-- Integração com serviços de terceiros para backup automático.
+## License 📄
+This project is licensed under the MIT License.
