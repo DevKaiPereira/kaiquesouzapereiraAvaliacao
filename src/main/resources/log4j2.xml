@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="LOG_DIR">logs</Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="LogToConsole" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <RollingFile name="UploadAuditFile" fileName="${LOG_DIR}/uploads.log"
+                     filePattern="${LOG_DIR}/uploads-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [USER_ACTION] %msg%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+            </Policies>
+        </RollingFile>
+
+        <RollingFile name="LogToDatabaseFile" fileName="${LOG_DIR}/database.log"
+                     filePattern="${LOG_DIR}/database-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} - %msg%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+            </Policies>
+        </RollingFile>
+
+        <RollingFile name="LogAuditDayFile" fileName="${LOG_DIR}/auditDay.log"
+                     filePattern="${LOG_DIR}/audit-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} - %msg%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+            </Policies>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="org.hibernate.type.descriptor.sql.BasicBinder" level="trace" additivity="false">
+            <AppenderRef ref="LogToDatabaseFile"/>
+        </Logger>
+        <Logger name="org.hibernate.SQL" level="debug" additivity="false">
+            <AppenderRef ref="LogToDatabaseFile"/>
+        </Logger>
+
+        <Logger name="org.hibernate.orm.jdbc.bind" level="trace" additivity="false">
+            <AppenderRef ref="LogToDatabaseFile"/>
+        </Logger>
+        <Logger name="com.kaiquesouzapereira.javaavaliacao.modules.documents.Controller.DocumentController" level="info" additivity="false">
+            <AppenderRef ref="UploadAuditFile"/>
+            <AppenderRef ref="LogToConsole"/>
+        </Logger>
+
+        <Logger name="com.kaiquesouzapereira.javaavaliacao.modules.documents.Controller.DocumentController" level="info" additivity="false">
+            <AppenderRef ref="LogAuditDayFile"/>
+            <AppenderRef ref="LogToConsole"/>
+        </Logger>
+
+        <Root level="info">
+            <AppenderRef ref="LogToConsole"/>
+        </Root>
+    </Loggers>
+</Configuration>

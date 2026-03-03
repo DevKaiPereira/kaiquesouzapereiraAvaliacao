@@ -1,0 +1,65 @@
+2026-03-02 22:39:46 [USER_ACTION] Erro ao deletar documento com id 534f2b6d-caa7-4e23-b1f8-a641d5294f9f!
+2026-03-02 22:40:44 [USER_ACTION] Erro ao deletar documento com id 534f2b6d-caa7-4e23-b1f8-a641d5294f9f!
+2026-03-02 22:45:29 [USER_ACTION] Erro ao deletar documento com id 534f2b6d-caa7-4e23-b1f8-a641d5294f9f!
+2026-03-02 22:45:31 [USER_ACTION] Erro ao deletar documento com id 534f2b6d-caa7-4e23-b1f8-a641d5294f9f!
+2026-03-02 22:48:00 [USER_ACTION] Uploading document
+2026-03-02 22:48:00 [USER_ACTION] Document uploaded successfully
+2026-03-02 22:51:02 [USER_ACTION] Erro ao deletar documento com id 534f2b6d-caa7-4e23-b1f8-a641d5294f9f!
+2026-03-02 22:51:03 [USER_ACTION] Erro ao deletar documento com id 534f2b6d-caa7-4e23-b1f8-a641d5294f9f!
+2026-03-02 23:41:02 [USER_ACTION] Usuário [com.auth0.jwt.JWTDecoder@6f401ed7] iniciando upload do arquivo: Instruções.pdf
+2026-03-02 23:41:02 [USER_ACTION] Usuário [com.auth0.jwt.JWTDecoder@6f401ed7] - Documento enviado com sucesso. ID: 0341def2-140f-4132-9ca8-34d6b6400cf9
+2026-03-02 23:41:07 [USER_ACTION] Usuário [com.auth0.jwt.JWTDecoder@1f23293] iniciando upload do arquivo: Instruções.pdf
+2026-03-02 23:41:07 [USER_ACTION] Usuário [com.auth0.jwt.JWTDecoder@1f23293] - Documento enviado com sucesso. ID: 5a7fa052-d0d4-4d2c-af83-a58ebf1a1d51
+2026-03-02 23:41:08 [USER_ACTION] Usuário [com.auth0.jwt.JWTDecoder@32fa96cf] iniciando upload do arquivo: Instruções.pdf
+2026-03-02 23:41:08 [USER_ACTION] Usuário [com.auth0.jwt.JWTDecoder@32fa96cf] - Documento enviado com sucesso. ID: ea58fed8-b1cb-4b0f-bbcf-7a7fbd02fd54
+2026-03-02 23:41:11 [USER_ACTION] Usuário [com.auth0.jwt.JWTDecoder@31b0d5c4] solicitando listagem de todos os documentos
+2026-03-02 23:41:12 [USER_ACTION] Usuário [com.auth0.jwt.JWTDecoder@31b0d5c4] - Listagem realizada com sucesso. Total: 18
+2026-03-02 23:47:26 [USER_ACTION] Usuário [] iniciando upload do arquivo: Instruções.pdf
+2026-03-02 23:47:27 [USER_ACTION] Usuário [] - Documento enviado com sucesso. ID: d65458bb-3df0-48b6-b434-7e769d560f8b
+2026-03-02 23:47:28 [USER_ACTION] Usuário [] iniciando upload do arquivo: Instruções.pdf
+2026-03-02 23:47:28 [USER_ACTION] Usuário [] - Documento enviado com sucesso. ID: 3463f348-9e62-4232-88e9-5fa35104adaa
+2026-03-02 23:47:30 [USER_ACTION] Usuário [] iniciando upload do arquivo: Instruções.pdf
+2026-03-02 23:47:30 [USER_ACTION] Usuário [] - Documento enviado com sucesso. ID: a82843dc-451c-4712-933a-e923ca82f3a5
+2026-03-02 23:47:33 [USER_ACTION] Usuário [] solicitando listagem de todos os documentos
+2026-03-02 23:47:34 [USER_ACTION] Usuário [] - Listagem realizada com sucesso. Total: 21
+2026-03-02 23:47:34 [USER_ACTION] Usuário [] solicitando listagem de todos os documentos
+2026-03-02 23:47:35 [USER_ACTION] Usuário [] - Listagem realizada com sucesso. Total: 21
+2026-03-02 23:47:36 [USER_ACTION] Usuário [] solicitando listagem de todos os documentos
+2026-03-02 23:47:36 [USER_ACTION] Usuário [] - Listagem realizada com sucesso. Total: 21
+2026-03-02 23:47:40 [USER_ACTION] Usuário [] tentando excluir documento ID: 534f2b6d-caa7-4e23-b1f8-a641d5294f9f
+2026-03-02 23:47:40 [USER_ACTION] Usuário [] - Erro deleting document with id 534f2b6d-caa7-4e23-b1f8-a641d5294f9f! Não encontrado.
+2026-03-02 23:47:41 [USER_ACTION] Usuário [] tentando excluir documento ID: 534f2b6d-caa7-4e23-b1f8-a641d5294f9f
+2026-03-02 23:47:41 [USER_ACTION] Usuário [] - Erro deleting document with id 534f2b6d-caa7-4e23-b1f8-a641d5294f9f! Não encontrado.
+2026-03-02 23:51:09 [USER_ACTION] Usuário [Kaique] iniciando upload do arquivo: Instruções.pdf
+2026-03-02 23:51:09 [USER_ACTION] Usuário [Kaique] - Documento enviado com sucesso. ID: a0c96976-2f5f-492f-a3ea-7b6c58ddd1ab
+2026-03-02 23:51:10 [USER_ACTION] Usuário [Kaique] iniciando upload do arquivo: Instruções.pdf
+2026-03-02 23:51:10 [USER_ACTION] Usuário [Kaique] - Documento enviado com sucesso. ID: 8dd67954-30f7-4292-a320-db16e73c197b
+2026-03-02 23:51:11 [USER_ACTION] Usuário [Kaique] iniciando upload do arquivo: Instruções.pdf
+2026-03-02 23:51:11 [USER_ACTION] Usuário [Kaique] - Documento enviado com sucesso. ID: fdafb043-0864-4136-a518-76ba5fc0082a
+2026-03-02 23:51:23 [USER_ACTION] Usuário [Kaique] solicitando listagem de todos os documentos
+2026-03-02 23:51:23 [USER_ACTION] Usuário [Kaique] - Listagem realizada com sucesso. Total: 24
+2026-03-02 23:51:24 [USER_ACTION] Usuário [Kaique] solicitando listagem de todos os documentos
+2026-03-02 23:51:24 [USER_ACTION] Usuário [Kaique] - Listagem realizada com sucesso. Total: 24
+2026-03-02 23:51:25 [USER_ACTION] Usuário [Kaique] solicitando listagem de todos os documentos
+2026-03-02 23:51:25 [USER_ACTION] Usuário [Kaique] - Listagem realizada com sucesso. Total: 24
+2026-03-02 23:51:37 [USER_ACTION] Usuário [Kaique] tentando excluir documento ID: 534f2b6d-caa7-4e23-b1f8-a641d5294f9f
+2026-03-02 23:51:37 [USER_ACTION] Usuário [Kaique] - Erro deleting document with id 534f2b6d-caa7-4e23-b1f8-a641d5294f9f! Não encontrado.
+2026-03-02 23:51:38 [USER_ACTION] Usuário [Kaique] tentando excluir documento ID: 534f2b6d-caa7-4e23-b1f8-a641d5294f9f
+2026-03-02 23:51:38 [USER_ACTION] Usuário [Kaique] - Erro deleting document with id 534f2b6d-caa7-4e23-b1f8-a641d5294f9f! Não encontrado.
+2026-03-02 23:51:39 [USER_ACTION] Usuário [Kaique] tentando excluir documento ID: 534f2b6d-caa7-4e23-b1f8-a641d5294f9f
+2026-03-02 23:51:39 [USER_ACTION] Usuário [Kaique] - Erro deleting document with id 534f2b6d-caa7-4e23-b1f8-a641d5294f9f! Não encontrado.
+2026-03-02 23:52:27 [USER_ACTION] Usuário [Kaique] alterando status do documento ID: 0341def2-140f-4132-9ca8-34d6b6400cf9 para ready
+2026-03-02 23:52:27 [USER_ACTION] Usuário [Kaique] - Status do documento ID: 0341def2-140f-4132-9ca8-34d6b6400cf9 alterado com sucesso
+2026-03-02 23:58:50 [USER_ACTION] Usuário [Kaique] solicitando listagem de todos os documentos
+2026-03-02 23:58:51 [USER_ACTION] Usuário [Kaique] - Listagem realizada com sucesso. Total: 24
+2026-03-02 23:58:53 [USER_ACTION] Usuário [Kaique] solicitando listagem de todos os documentos
+2026-03-02 23:58:53 [USER_ACTION] Usuário [Kaique] - Listagem realizada com sucesso. Total: 24
+2026-03-02 23:59:00 [USER_ACTION] Usuário [Kaique] iniciando upload do arquivo: Instruções.pdf
+2026-03-02 23:59:00 [USER_ACTION] Usuário [Kaique] - Documento enviado com sucesso. ID: f10afa73-3b60-4302-b674-dde23d04a5fb
+2026-03-02 23:59:01 [USER_ACTION] Usuário [Kaique] iniciando upload do arquivo: Instruções.pdf
+2026-03-02 23:59:01 [USER_ACTION] Usuário [Kaique] - Documento enviado com sucesso. ID: 24226191-a4bf-427a-b6f9-ac63cc9be57b
+2026-03-02 23:59:09 [USER_ACTION] Usuário [Kaique] alterando status do documento ID: 0341def2-140f-4132-9ca8-34d6b6400cf9 para ready
+2026-03-02 23:59:09 [USER_ACTION] Usuário [Kaique] - Status do documento ID: 0341def2-140f-4132-9ca8-34d6b6400cf9 alterado com sucesso
+2026-03-02 23:59:10 [USER_ACTION] Erro ao gerar relatório diário: Cannot read the array length because the return value of "com.kaiquesouzapereira.javaavaliacao.modules.documents.Dto.DocumentResponseDto.getData()" is null
+2026-03-02 23:59:10 [USER_ACTION] Usuário [Kaique] alterando status do documento ID: 0341def2-140f-4132-9ca8-34d6b6400cf9 para ready
+2026-03-02 23:59:10 [USER_ACTION] Usuário [Kaique] - Status do documento ID: 0341def2-140f-4132-9ca8-34d6b6400cf9 alterado com sucesso

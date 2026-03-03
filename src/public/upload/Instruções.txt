@@ -1,0 +1,58 @@
+Instruções
+
+Estrutura, regras e requisitos do projeto
+
+A API deve conter as seguintes funcionalidades:
+
+    Criação de um novo curso
+    Listagem de todos os cursos
+    Atualização de um curso pelo id
+    Remover um curso pelo id
+
+Estrutura
+
+Antes das rotas, vamos entender qual a estrutura (propriedades) que um curso deve ter:
+
+    id - Identificador único de cada curso
+    name - Nome do curso
+    category - Categoria do curso
+    active - Define se o curso está ativo ou não
+    created_at - Data de quando o curso foi criado
+    updated_at - Deve ser sempre alterado para a data de quando o curso for atualizada
+
+Rotas
+POST - /cursos
+
+Deve ser possível criar um curso no banco de dados, enviando os campos name, category e professor por meio do body da requisição.
+
+Ao criar um curso, os campos: id, created_at e updated_at devem ser preenchidos automaticamente, conforme a orientação das propriedades acima.
+GET - /cursos
+
+Deve ser possível listar todas os cursos salvos no banco de dados.
+
+Também deve ser possível realizar uma busca, filtrando os cursos pelo name e category
+PUT - /cursos/:id
+
+Deve ser possível atualizar um curso pelo id.
+
+No body da requisição, deve receber um dos campos name, category ou professor para serem atualizados.
+
+Se for enviado somente o name, significa que o category não pode ser atualizado e vice-versa. Além disso, active for informado nessa rota, ele deverá ser ignorado, pois a rota que deverá fazer essa atualização, é a de patch.
+DELETE - /cursos/:id
+
+Deve ser possível remover um curso pelo id.
+PATCH - /cursos/:id/active
+
+Essa rota servirá para marcar se o curso está ativo ou não, ou seja, um toggle entre true or false.
+Dica
+
+A anotação @CreationTimestamp define que o valor do atributo createdAt será definido automaticamente pelo banco de dados no momento da criação da entidade.
+
+A anotação @UpdateTimestamp define que o valor do atributo updatedAt será definido automaticamente pelo banco de dados no momento da atualização da entidade.
+Indo além
+
+Algumas sugestões do que pode ser implementado:
+
+    Validar se as propriedades name, category e professor da rota POST estão presentes no body da requisição.
+    Para tratar as exceções, você pode se desafiar e criar as excpetions
+
