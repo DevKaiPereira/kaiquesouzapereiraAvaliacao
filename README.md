@@ -1,90 +1,58 @@
-# VEXYN Document Management System
+# Documento de Avaliação da Aplicação
 
-## Project Description
-VEXYN is a feature-rich document management system designed to help organizations manage their documents efficiently and securely. The system provides a user-friendly interface and robust functionality to enhance productivity and collaboration.
+## Descrição da Aplicação
+Esta aplicação é projetada para (inserir uma breve descrição do objetivo da aplicação).
 
-## Features
-- **Upload and Manage Documents**: Users can upload documents of various formats and organize them into folders.
-- **Version Control**: Keep track of multiple versions of documents, allowing users to revert to earlier versions if needed.
-- **Search Functionality**: Advanced search capabilities to quickly find documents based on metadata or full-text search.
-- **User Roles and Permissions**: Implement role-based access control to ensure sensitive documents are accessible only to authorized users.
-- **Collaborative Tools**: Features for users to comment and discuss documents within the platform.
-- **Document Sharing**: Secure sharing options for internal and external stakeholders.
-- **Mobile Access**: Ensure that users can access documents on-the-go with a mobile-friendly interface or dedicated applications.
+## Funcionalidades
+- (Listar as funcionalidades principais da aplicação)
 
-## Complete API Routes Structure
-### Authentication
-- `POST /api/auth/login`: User login
-- `POST /api/auth/signup`: User registration
-### Document Management
-- `GET /api/documents`: Fetch all documents
-- `POST /api/documents`: Upload a new document
-- `GET /api/documents/:id`: Get specific document details
-- `PUT /api/documents/:id`: Update an existing document
-- `DELETE /api/documents/:id`: Delete a document
-### Folder Management
-- `GET /api/folders`: List all folders
-- `POST /api/folders`: Create a new folder
-- `GET /api/folders/:id`: Get details of a specific folder
-- `PUT /api/folders/:id`: Update folder details
-- `DELETE /api/folders/:id`: Delete a folder
+## Rotas da API
+- `GET /api/exemplo` - Retorna um exemplo.
+- `POST /api/exemplo` - Cria um novo exemplo.
 
-## Folder Structure
+## Estrutura de Pastas
 ```
-/vexyn/
-├── src/
-│   ├── api/
-│   ├── components/
-│   ├── services/
-│   ├── utils/
-│   └── styles/
-├── tests/
-│   ├── unit/
-│   └── integration/
-├── public/
+.
+├── src
+│   ├── controllers
+│   ├── models
+│   ├── routes
+│   └─��� tests
+├── config
 └── README.md
 ```
 
-## All Test Cases
-- Unit tests for APIs, components, and utility functions
-- Integration tests for overall workflow
-- End-to-end tests covering user scenarios
+## Testes
+Para rodar os testes, use o comando:
+```
+npm test
+```
 
-## Technology Stack
-- **Frontend**: React.js
-- **Backend**: Node.js, Express
-- **Database**: MongoDB
-- **Testing Framework**: Jest, Mocha
-- **Deployment**: Docker, AWS
+## Stack de Tecnologias
+- Node.js
+- Express
+- MongoDB
 
-## Configuration
-Configuration settings can be found in the `.env` file, including database connection strings and API keys.
+## Configuração
+(Aqui você poderá incluir informações sobre variáveis de ambiente e configurações necessárias)
 
-## Setup Instructions
-1. Clone the repository: `git clone https://github.com/DevKaiPereira/kaiquesouzapereiraAvaliacao.git`
-2. Navigate to the directory: `cd kaiquesouzapereiraAvaliacao`
-3. Install dependencies: `npm install`
-4. Run the application: `npm start`
+## Instruções de Configuração
+1. Clone o repositório.
+2. Instale as dependências:
+   ```
+   npm install
+   ```
+3. Configure o arquivo `.env` com as variáveis apropriadas.
 
-## Authentication and Authorization Details
-- Utilizes JWT for stateless authentication
-- Role-based access control ensures authorized access to resources
+## Autenticação
+(Aqui você pode descrever como a autenticação é gerenciada na aplicação)
 
-## Logging and Monitoring
-- Integrates with Winston for logging
-- Use Prometheus for monitoring application metrics
+## Registro de Log
+(Aqui você pode explicar como o sistema de log está implementado)
 
-## Error Handling
-Centralized error handling middleware to manage errors gracefully and provide informative responses to users.
+## Tratamento de Erros
+(Aqui você pode detalhar como os erros são tratados)
 
-## Diagrams
-- [Architecture Diagram](link-to-architecture-diagram)
-- [ER Diagram](link-to-er-diagram)
-
-## Roadmap
-- **Q2 2026**: Implement additional integrations with third-party tools
-- **Q3 2026**: Launch mobile application
-- **Q4 2026**: Expand functionality based on user feedback
-
-## Conclusion
-VEXYN is built to simplify document management and improve organizational efficiency. With its powerful features and user-friendly interface, it meets the diverse needs of modern workplaces.
+## Roteiro
+- Versão 1.0: (Descrever o que está incluído na primeira versão)
+- Futuras funcionalidades: (Listar o que está planejado)
