@@ -1,35 +1,36 @@
-# Project Documentation
+# Application Documentation
 
-## Application Description
-This application is designed to provide [insert a brief description of the application and its purpose].
+## Description
+This application is designed to provide ...
 
 ## Features
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
+- Feature 1: Description
+- Feature 2: Description
 
-## Routes
-| Route          | Method | Description               |
-|----------------|--------|---------------------------|
-| /api/route1    | GET    | [Description]             |
-| /api/route2    | POST   | [Description]             |
+## Routes Structure
+- GET /api/v1/resource - Description of endpoint
+- POST /api/v1/resource - Description of endpoint
 
 ## Folder Structure
 ```
-root/
+/
 ├── src/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   └── config/
+│   ├── components/
+│   ├── services/
+│   └── utils/
 ├── tests/
-│   └── [Testing files]
 └── README.md
 ```
 
-## Testing Information
-Testing can be conducted using [insert testing framework/method] by running the command:
-```
-[insert command here]
-```
+## Tests
+### Running Tests
+Use the following command to run tests: `npm test`
+
+## Setup Instructions
+1. Clone the repository: `git clone https://github.com/DevKaiPereira/kaiquesouzapereiraAvaliacao.git`
+2. Change to the directory: `cd kaiquesouzapereiraAvaliacao`
+3. Install dependencies: `npm install`
+4. Start the application: `npm start`
+
+## Date of Update
+- Updated on: 2026-03-03 05:02:06 UTC
