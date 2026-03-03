@@ -58,4 +58,4 @@ Content-Type: application/json
   "email": "usuario@example.com",
   "password": "senha123",
   "position": "USER"
-}ob a Licença MIT.
+}
