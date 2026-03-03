@@ -1,69 +1,90 @@
 # VEXYN Document Management System
 
 ## Project Description
-VEXYN is a comprehensive document management system designed to streamline the handling, storage, and retrieval of documents. Built using **Spring Boot 3.5.11**, the application offers a robust and scalable solution for managing documents securely and efficiently.
+VEXYN is a feature-rich document management system designed to help organizations manage their documents efficiently and securely. The system provides a user-friendly interface and robust functionality to enhance productivity and collaboration.
 
 ## Features
-- User management with role-based access control
-- Document upload, retrieval, and management
-- JWT authentication for secure API access
-- Docker support for easy deployment
-- Extensive unit tests ensuring code reliability
-- Complete API documentation included
+- **Upload and Manage Documents**: Users can upload documents of various formats and organize them into folders.
+- **Version Control**: Keep track of multiple versions of documents, allowing users to revert to earlier versions if needed.
+- **Search Functionality**: Advanced search capabilities to quickly find documents based on metadata or full-text search.
+- **User Roles and Permissions**: Implement role-based access control to ensure sensitive documents are accessible only to authorized users.
+- **Collaborative Tools**: Features for users to comment and discuss documents within the platform.
+- **Document Sharing**: Secure sharing options for internal and external stakeholders.
+- **Mobile Access**: Ensure that users can access documents on-the-go with a mobile-friendly interface or dedicated applications.
 
-## API Routes
-- **POST** `/api/auth/login` - Authenticate user and obtain JWT
-- **POST** `/api/users` - Create a new user
-- **GET** `/api/users` - Retrieve all users
-- **POST** `/api/documents` - Upload a new document
-- **GET** `/api/documents/{id}` - Retrieve document details
+## Complete API Routes Structure
+### Authentication
+- `POST /api/auth/login`: User login
+- `POST /api/auth/signup`: User registration
+### Document Management
+- `GET /api/documents`: Fetch all documents
+- `POST /api/documents`: Upload a new document
+- `GET /api/documents/:id`: Get specific document details
+- `PUT /api/documents/:id`: Update an existing document
+- `DELETE /api/documents/:id`: Delete a document
+### Folder Management
+- `GET /api/folders`: List all folders
+- `POST /api/folders`: Create a new folder
+- `GET /api/folders/:id`: Get details of a specific folder
+- `PUT /api/folders/:id`: Update folder details
+- `DELETE /api/folders/:id`: Delete a folder
 
 ## Folder Structure
 ```
-VEXYN/
-│
+/vexyn/
 ├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   ├── resources/
-│   │   └── ...
-│   └── test/
-│       └── java/
-└── Dockerfile
+│   ├── api/
+│   ├── components/
+│   ├── services/
+│   ├── utils/
+│   └── styles/
+├── tests/
+│   ├── unit/
+│   └── integration/
+├── public/
+└── README.md
 ```
 
-## Tests
-Our project contains extensive unit tests written using JUnit and Mockito to ensure the functionality of each module.
+## All Test Cases
+- Unit tests for APIs, components, and utility functions
+- Integration tests for overall workflow
+- End-to-end tests covering user scenarios
 
 ## Technology Stack
-- **Spring Boot 3.5.11**
-- **MySQL** for database management
-- **JWT** for authentication
-- **Docker** for containerization
+- **Frontend**: React.js
+- **Backend**: Node.js, Express
+- **Database**: MongoDB
+- **Testing Framework**: Jest, Mocha
+- **Deployment**: Docker, AWS
 
 ## Configuration
-Detailed instructions on configuring the application can be found in the `application.properties` file.
+Configuration settings can be found in the `.env` file, including database connection strings and API keys.
 
 ## Setup Instructions
-1. Clone the repository: `git clone <repository-url>`
-2. Navigate to the project directory: `cd VEXYN`
-3. Install dependencies: `mvn install`
-4. Run the application: `mvn spring-boot:run`
+1. Clone the repository: `git clone https://github.com/DevKaiPereira/kaiquesouzapereiraAvaliacao.git`
+2. Navigate to the directory: `cd kaiquesouzapereiraAvaliacao`
+3. Install dependencies: `npm install`
+4. Run the application: `npm start`
 
-## Authentication
-The application utilizes JWT for authenticating users. Ensure you obtain a token by logging in through the `/api/auth/login` route before accessing protected resources.
+## Authentication and Authorization Details
+- Utilizes JWT for stateless authentication
+- Role-based access control ensures authorized access to resources
 
-## Logging
-Basic logging is enabled using SLF4J and Logback for monitoring application behavior.
+## Logging and Monitoring
+- Integrates with Winston for logging
+- Use Prometheus for monitoring application metrics
 
 ## Error Handling
-Error handling has been implemented to ensure users receive meaningful feedback for issues encountered during API interactions.
+Centralized error handling middleware to manage errors gracefully and provide informative responses to users.
+
+## Diagrams
+- [Architecture Diagram](link-to-architecture-diagram)
+- [ER Diagram](link-to-er-diagram)
 
 ## Roadmap
-- Implement additional features such as document versioning
-- Enhance user roles and permissions management
-- Expand API documentation with examples of use cases
+- **Q2 2026**: Implement additional integrations with third-party tools
+- **Q3 2026**: Launch mobile application
+- **Q4 2026**: Expand functionality based on user feedback
 
----
-#### Current Date and Time (UTC): 2026-03-03 05:04:27
-#### Created by: DevKaiPereira
+## Conclusion
+VEXYN is built to simplify document management and improve organizational efficiency. With its powerful features and user-friendly interface, it meets the diverse needs of modern workplaces.
