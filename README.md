@@ -1,8 +1,5 @@
 # Documentação do Projeto
 
-## Descrição do Projeto
-Este projeto é uma avaliação desenvolvida por Kaique Souza Pereira. A proposta é fornecer uma solução eficiente e bem estruturada para um desafio específico.
-
 # 📄 VEXYN - Sistema de Gerenciamento de Documentos
 
 ## 📋 Descrição do Projeto
