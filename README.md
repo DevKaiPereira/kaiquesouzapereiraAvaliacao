@@ -690,6 +690,6 @@ O projeto possui testes unitários para os principais serviços, usando **JUnit 
 
 <div align="center">
 
-Feito com ❤️ por **Kaique Souza Pereira**
+Feito por **Kaique Souza Pereira**
 
 </div>
